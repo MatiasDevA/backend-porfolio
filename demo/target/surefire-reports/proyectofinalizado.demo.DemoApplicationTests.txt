@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: proyectofinalizado.demo.DemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.475 s - in proyectofinalizado.demo.DemoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.727 s - in proyectofinalizado.demo.DemoApplicationTests
