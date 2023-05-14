@@ -29,11 +29,7 @@ public class SkillServiceIMPL implements SkillService {
     @Override
     public Optional<Skill> skillUnica(Long id) {
         Optional<Skill> skill = skiRepo.findById(id);
-        if(skill != null){
-            return skill;
-        } else {
-            return null;
-        }
+        return skill;
     }
 
     @Override

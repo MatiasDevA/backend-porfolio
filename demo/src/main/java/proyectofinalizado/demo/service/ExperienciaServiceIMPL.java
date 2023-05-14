@@ -27,11 +27,7 @@ public class ExperienciaServiceIMPL implements ExperienciaService{
     @Override
     public Optional<Experiencia> experecienciaUnica(Long id) {
         Optional<Experiencia> experiencia = expRepo.findById(id);
-        if(experiencia != null){
-            return experiencia;
-        } else {
-            return null;
-        }
+        return experiencia;
     }
 
     @Override

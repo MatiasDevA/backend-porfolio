@@ -7,16 +7,16 @@ import java.util.List;
 
 public interface ComentarioService {
 
-    public List<Comentario> verComentarios();
+    List<Comentario> verComentarios();
 
 
-    public Comentario guardar(Comentario comentario);
+    Comentario guardar(Comentario comentario);
 
 
-    public void update(Comentario comentario);
+    void update(Comentario comentario);
 
 
-    public void eliminar(Integer id);
+    void eliminar(Integer id);
     List<Comentario> listarComentariosDeUnaPublicacion(Publicacion publicacion);
 
 }

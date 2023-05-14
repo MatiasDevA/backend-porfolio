@@ -7,11 +7,11 @@ import java.util.Optional;
 
 public interface EducacionService {
 
-    public List<Educacion> findAllEducacion();
+    List<Educacion> findAllEducacion();
 
-    public Educacion update(Educacion educacion);
+    Educacion update(Educacion educacion);
 
     Optional<Educacion> educacionUnica(Long id);
-    public Educacion guardar(Educacion educacion);
-    public void eliminar(Long id);
+    Educacion guardar(Educacion educacion);
+    void eliminar(Long id);
 }

@@ -29,11 +29,7 @@ public class ProyectoServiceIMPL implements ProyectoService {
     @Override
     public Optional<Proyecto> proyectoUnico(Long id) {
         Optional<Proyecto> proyecto = proRepo.findById(id);
-        if(proyecto != null){
-            return proyecto;
-        } else {
-            return null;
-        }
+        return proyecto;
     }
 
     @Override

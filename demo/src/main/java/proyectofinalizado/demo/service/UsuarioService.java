@@ -14,5 +14,5 @@ public interface UsuarioService {
     boolean existsByEmail(String email);
 
 
-    public void save(Usuario usuario);
+    void save(Usuario usuario);
 }

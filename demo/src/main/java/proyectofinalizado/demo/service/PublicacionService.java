@@ -7,16 +7,16 @@ import java.util.Optional;
 
 public interface PublicacionService {
 
-    public List<Publicacion> verPublicaciones();
+    List<Publicacion> verPublicaciones();
 
 
-    public Publicacion guardar(Publicacion publicacion);
+    Publicacion guardar(Publicacion publicacion);
 
 
-    public void update(Publicacion publicacion);
+    void update(Publicacion publicacion);
 
 
-    public void eliminar(Integer id);
+    void eliminar(Integer id);
 
-    public Optional<Publicacion> publicacionUnica(Integer id);
+    Optional<Publicacion> publicacionUnica(Integer id);
 }

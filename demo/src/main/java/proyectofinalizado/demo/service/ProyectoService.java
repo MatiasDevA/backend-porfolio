@@ -10,11 +10,11 @@ import java.util.Optional;
 public interface ProyectoService {
 
 
-    public List<Proyecto> findAllProyects();
+    List<Proyecto> findAllProyects();
 
-    public Proyecto update(Proyecto proyecto);
+    Proyecto update(Proyecto proyecto);
 
     Optional<Proyecto> proyectoUnico(Long id);
-    public Proyecto guardar(Proyecto proyecto);
-    public void eliminar(Long id);
+    Proyecto guardar(Proyecto proyecto);
+    void eliminar(Long id);
 }

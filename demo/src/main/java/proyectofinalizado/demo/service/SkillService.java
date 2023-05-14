@@ -8,11 +8,11 @@ import java.util.Optional;
 
 public interface SkillService {
 
-    public List<Skill> findAllSkill();
+    List<Skill> findAllSkill();
 
-    public Skill update(Skill skill);
+    Skill update(Skill skill);
 
     Optional<Skill> skillUnica(Long id);
-    public Skill guardar(Skill skill);
-    public void eliminar(Long id);
+    Skill guardar(Skill skill);
+    void eliminar(Long id);
 }

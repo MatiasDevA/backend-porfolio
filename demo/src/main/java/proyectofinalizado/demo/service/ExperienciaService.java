@@ -8,11 +8,11 @@ import java.util.Optional;
 public interface ExperienciaService {
 
 
-    public List<Experiencia> finAllExperiencia();
+    List<Experiencia> finAllExperiencia();
 
-    public Experiencia update(Experiencia experiencia);
+    Experiencia update(Experiencia experiencia);
 
     Optional<Experiencia> experecienciaUnica(Long id);
-    public Experiencia guardar(Experiencia experiencia);
-    public void eliminar(Long id);
+    Experiencia guardar(Experiencia experiencia);
+    void eliminar(Long id);
 }

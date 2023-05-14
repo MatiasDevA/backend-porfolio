@@ -26,11 +26,7 @@ public class EducacionServiceIMPL implements EducacionService {
     @Override
     public Optional<Educacion> educacionUnica(Long id) {
         Optional<Educacion> educacion = eduRepo.findById(id);
-        if(educacion != null){
-            return educacion;
-        } else {
-            return null;
-        }
+        return educacion;
     }
 
     @Override
