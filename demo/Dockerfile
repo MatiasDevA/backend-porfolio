@@ -1,4 +1,4 @@
-FROM openjdk:15-jdk-alpine
+FROM amazoncorretto:17-alpine-jdk
 EXPOSE 8080
 COPY target/demo-0.0.1-SNAPSHOT.jar porfolio-app.jar
 ENTRYPOINT  ["java", "-jar" , "/porfolio-app.jar"]
